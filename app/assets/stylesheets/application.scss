@@ -66,7 +66,7 @@ body {
  */
 
 .masthead {
-  margin-bottom: 2rem;
+/*  margin-bottom: 4rem;*/
 }
 
 .masthead-brand {
@@ -124,6 +124,7 @@ body {
 
 .mastfoot {
   color: rgba(255,255,255,.5);
+ /* margin-top: 4rem;*/
 }
 
 
@@ -159,4 +160,23 @@ body {
   .cover-container {
     width: 55rem;
   }
+}
+
+
+/*
+ * Custom Styles
+ */
+
+.card-block {
+  color: black;
+  text-align: left
+ }
+
+.container-fluid {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.auth-links a {
+  color: black;
 }
