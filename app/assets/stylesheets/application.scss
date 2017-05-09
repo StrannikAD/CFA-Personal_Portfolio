@@ -66,7 +66,7 @@ body {
  */
 
 .masthead {
-  margin-bottom: 2rem;
+/*  margin-bottom: 4rem;*/
 }
 
 .masthead-brand {
@@ -124,6 +124,7 @@ body {
 
 .mastfoot {
   color: rgba(255,255,255,.5);
+ /* margin-top: 4rem;*/
 }
 
 
@@ -157,6 +158,40 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 42rem;
+    width: 55rem;
   }
+}
+
+
+/*
+ * Custom Styles
+ */
+
+.card-block {
+  color: black;
+  text-align: left
+ }
+
+.container-fluid {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.auth-links a {
+  color: black;
+}
+
+.register-text {
+  text-align: right;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}
+
+.app-nav span {
+  margin-left: 15px;
+  margin-right: 15px;
 }
