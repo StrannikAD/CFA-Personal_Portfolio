@@ -4,7 +4,7 @@ class PortfoliosController < ApplicationController
   access all: [:show, :index, :angular], user: {except: [:destroy, :new, :create, :update, :edit]}, site_admin: :all
   
   def index
-    @portfolio_items = Portfolio.all
+    @portfolio_items = Portfolio.by_position
   end
 
   def angular
@@ -63,6 +63,7 @@ class PortfoliosController < ApplicationController
                                       technologies_attributes: [:name]
                                      )
   end
+
   def set_portfolio_item
     @portfolio_item = Portfolio.find(params[:id])
   end
