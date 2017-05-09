@@ -1,6 +1,6 @@
 # CFA New Portfolio Project
 
-> This is a Ruby on Rails 5 application that allows users to create their own portfolios.
+> This is a refactored Personal Portolio, integrating new features which I have learned during my time at the Coder Factory Academy.
 
 ### Features
 
